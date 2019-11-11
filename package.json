@@ -1,0 +1,36 @@
+{
+  "name": "bugsnag-telegram",
+  "version": "1.0.0",
+  "description": "bugsnag wrbhook for telelgram",
+  "main": "./lib",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akleandrov/bugsnag-telegram.git"
+  },
+  "keywords": [
+    "bugsnag",
+    "koa2",
+    "telegram"
+  ],
+  "author": "akleandrov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akleandrov/bugsnag-telegram/issues"
+  },
+  "homepage": "https://github.com/akleandrov/bugsnag-telegram#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0"
+  }
+}
